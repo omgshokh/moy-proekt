@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    margin: auto;
+    width: 1400px;
+}
+.nav_uchun{
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+    position: fixed;
+    z-index: 1;
+    width: 1280px;
+}
+
+.head_main{
+display: flex;
+gap: 50px;
+align-items: center
+
+}
+.perviy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 70px;
+    border: 2px solid wheat;
+}
+.head_main a{
+    font-size: 25px;
+    color: white;
+}
+.btn_zakaz{
+    width: 150px;
+    height: 60px;
+    background-color: bisque;
+    border: 1px solid orange;
+    border-radius: 40px;
+    color: black;
+
+}
+.btn_zakaz:hover{
+    background-color: coral;
+    transition: 1s;
+}
+.btn_zakaz:active{
+    background-color: burlywood;
+}
+.head_main a:hover{
+    color: brown;
+    transition: 1s;
+    background-color: bisque;
+}
+input{
+width: 400px;
+height: 30px;
+border-radius: 20px;
+background-color: bisque;
+border : 1px solid orange;
+text-align: center;
+}
+input:hover{
+    background-color: bisque;
+}
+input:active{
+background-color: burlywood;
+border: 1px white;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.vtoroy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    border-radius: 30px 0 0 25px;
+}
+.blyudo h2, h3, p{
+    text-align: center;
+}
+.napitli h2, h3, p{
+    text-align: center;
+}
+.blyudo:hover{
+background-color: brown;
+transition: 1s;
+border-radius: 30px 0 0 25px;
+color: white;
+}
+.napitli:hover{
+    background-color: brown;
+    transition: 1s;
+    border-radius: 30px 0 0 25px;
+    color: white;
+}
+main{
+    padding-top: 7%;
+}
+body{
+    background-color: wheat ;
+}
+.head_info{
+    background: url(mohi.png    ) no-repeat cover center;
+    width: 200px;
+    height: 200px;
+}
+iframe{
+    border-radius: 40px;
+}
+.glav{
+    text-align: center;
+    padding: 20px;
+}
+h4{
+    font-size: 30px;
+}
+.konets input{
+    background-color: rgba(0, 132, 255, 0.473);
+    border: none;
+}
+textarea{
+    border: none;
+    background-color: rgba(0, 132, 255, 0.473);
+}
+.konets{
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+.text_area{
+padding-top: 4%;
+text-align: center;
+}
+input:active{
+    border: none;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.foot{
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    width: 1200px;
+    height: 30px;
+    justify-content: center;
+}
+.foot a{
+    color: white;
+}
+.foot a:hover{
+    color: brown ;
+    transition: 1s;
+}
